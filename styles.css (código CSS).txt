@@ -1,0 +1,101 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+/* Banner */
+.banner {
+    background: url('banner-led.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #ff00ff;
+}
+.banner p {
+    font-size: 20px;
+}
+.btn {
+    background: #ff00ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+}
+h2 {
+    color: #ff00ff;
+}
+
+/* Serviços */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* Portfólio */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.galeria img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+/* Contato */
+.contato form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.contato input, .contato textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.contato button {
+    background: #ff00ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    background: #111;
+    padding: 20px;
+}
