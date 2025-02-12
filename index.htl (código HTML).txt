@@ -1,71 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soluled - Tecnologia em Painéis de LED</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Banner Dinâmico -->
-    <header class="banner">
-        <div class="overlay">
-            <h1>SOLULED</h1>
-            <p>Iluminando o Futuro com Tecnologia LED</p>
-            <a href="#contato" class="btn">Entre em Contato</a>
-        </div>
+    <!-- Cabeçalho com Logotipo -->
+    <header>
+        <img src="images/logo.png" alt="Logo Soluled" class="logo">
+        <h1>Soluled</h1>
+        <p>Iluminando o futuro com tecnologia LED</p>
     </header>
 
-    <!-- Sobre a Empresa -->
-    <section class="sobre">
-        <h2>Sobre Nós</h2>
-        <p>A Soluled é especializada em tecnologia de painéis de LED, oferecendo soluções inovadoras para publicidade, eventos e muito mais.</p>
+    <!-- Seção Sobre -->
+    <section id="about">
+        <h2>Sobre a Soluled</h2>
+        <p>Especialistas em painéis de LED para eventos, publicidade e comunicação visual.</p>
     </section>
 
-    <!-- Serviços -->
-    <section class="servicos">
-        <h2>Nossos Serviços</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Painéis para Eventos</h3>
-                <p>Alta definição e brilho intenso para grandes produções.</p>
-            </div>
-            <div class="card">
-                <h3>Publicidade em LED</h3>
-                <p>Displays digitais para chamar a atenção do seu público.</p>
-            </div>
-            <div class="card">
-                <h3>Fachadas Iluminadas</h3>
-                <p>Personalização para destacar sua marca.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfólio -->
-    <section class="portfolio">
+    <!-- Seção de Portfólio -->
+    <section id="portfolio">
         <h2>Nosso Portfólio</h2>
-        <div class="galeria">
-            <img src="led1.jpg" alt="Painel LED 1">
-            <img src="led2.jpg" alt="Painel LED 2">
-            <img src="led3.jpg" alt="Painel LED 3">
+        <div class="portfolio-gallery">
+            <img src="images/projeto1.jpg" alt="Painel LED 1">
+            <img src="images/projeto2.jpg" alt="Painel LED 2">
+            <img src="images/projeto3.jpg" alt="Painel LED 3">
         </div>
     </section>
 
-    <!-- Contato -->
-    <section id="contato" class="contato">
-        <h2>Fale Conosco</h2>
-        <form>
-            <input type="text" placeholder="Seu Nome" required>
-            <input type="email" placeholder="Seu E-mail" required>
-            <textarea placeholder="Sua Mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+    <!-- Seção de Serviços -->
+    <section id="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service">
+            <h3>Locação de Painéis LED</h3>
+            <p>Alugamos painéis de LED de alta qualidade para eventos.</p>
+        </div>
+        <div class="service">
+            <h3>Instalação Profissional</h3>
+            <p>Montagem e configuração de painéis LED personalizados.</p>
+        </div>
+        <div class="service">
+            <h3>Suporte Técnico</h3>
+            <p>Manutenção e assistência para garantir a melhor performance.</p>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Soluled - Todos os direitos reservados.</p>
-    </footer>
+    <!-- Seção de Contato -->
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <p>Email: vendas@soluled.com</p>
+        <p>Telefone: (11) 91104-8693</p>
+        <p>Endereço: Rua Guaraçai, 04- São Paulo, SP</p>
+    </section>
 
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Soluled - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
